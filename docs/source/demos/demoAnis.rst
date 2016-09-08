@@ -3,8 +3,7 @@ Demo Anis
 
 Publish the robot in ROS
 ------------------------
-The joints of the robot should be published in /joint_states
-If no robot_publisher is running, just use this launch file:
+The joints of the robot should be published in /joint_states. If no robot_publisher is running, just use this launch file:
 
 .. code-block:: bash
 
@@ -15,9 +14,11 @@ Run the Kinects
 **On kuka-demo@kuka-viz2 (mdp: kukademo)**
 
 
-Here you will run the Kinect v2  placed on the wall called kinectV2
+Here you will run the Kinect v2  placed on the wall called kinectV2.
+
 Use  mux kinectV2_processing and all the necessary things to run should appear right in front of you. Just run all of them in any order.
- If not here is the list of what you need to run:
+
+If not here is the list of what you need to run:
 
 .. code-block:: bash
 
@@ -31,8 +32,9 @@ Use  mux kinectV2_processing and all the necessary things to run should appear r
 **On kukademo@kuka-viz (mdp: kukademo)**
 
 Here you will run the Xtions.
-The one in the corner of the robot's cage is kinect1
-The second in the ceiling is kinect2
+
+The one in the corner of the robot's cage is kinect1. The second in the ceiling is kinect2
+
 Like on kuka-viz2 you can use mux:
 
 .. code-block:: bash
@@ -56,8 +58,9 @@ Run the tracking
 **On kuka-viz or kuka-viz2**
 
 Last step is to merge the kinects and run tracking mux kinect_tracking
-Just fill in topic_name1 for using only one Kinect
-Fill in topic_name2 and topic_name3 if you want to merge 2 or 3 kinects
+
+Just fill in topic_name1 for using only one Kinect. Fill in topic_name2 and topic_name3 if you want to merge 2 or 3 kinects
+
 It is equivalent to:
 
 .. code-block:: bash

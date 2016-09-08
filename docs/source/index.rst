@@ -1,8 +1,4 @@
-.. vision_docs documentation master file, created by
-   sphinx-quickstart on Wed Aug 24 14:34:49 2016.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
+=======================================
 Vision code documentation
 =======================================
 
@@ -39,7 +35,9 @@ Vision code documentation
   :glob:
   :maxdepth: 2
 
-  ORK <objectRecognition/ORK>
+TODO
+
+..  ORK <objectRecognition/ORK>
 
 .. toctree::
   :name: tips
@@ -47,7 +45,9 @@ Vision code documentation
   :glob:
   :maxdepth: 2
 
-  TMUX <tips/tmux>
+TODO
+
+..  TMUX <tips/tmux>
 
 Indices and tables
 ==================
