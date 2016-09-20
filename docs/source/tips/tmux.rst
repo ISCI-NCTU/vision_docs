@@ -1,5 +1,5 @@
 tmux & tmuxinator
-=======================================
+=================
 
 tmux
 ~~~~~
@@ -46,11 +46,18 @@ Also to be able to use the mouse on the terminal, follow this tutorial:
 
 http://tangledhelix.com/blog/2012/07/16/tmux-and-mouse-mode/
 
+tmuxinator
+----------
+Follow the instructions on the github repository:
+
+https://github.com/tmuxinator/tmuxinator
+
+Help
+~~~~
 
 tmuxinator
 ----------
-
-A simple tmuxinator file looks like this:
+With tmuxinator you can specify you tmux in yaml like this
 
 .. code-block:: bash
 
@@ -71,6 +78,19 @@ A simple tmuxinator file looks like this:
           - etc ...
 
 .. tip:: If you want to **only print** the command use : ``tmux send-keys -t SESSION_NAME:WINDOW_NAME.PANE_NB "command to print";``
+
+To create automatically an empty session run:
+
+``mux new SESSION_NAME``
+
+To start your session:
+
+``mux SESSION_NAME``
+
+Edit the session:
+
+``mux open SESSION_NAME``
+
 
 tmux commands
 -------------

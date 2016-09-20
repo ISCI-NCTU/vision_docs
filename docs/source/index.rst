@@ -45,7 +45,7 @@ TODO
   :glob:
   :maxdepth: 2
 
-  tmux && tmuxinator <tips/tmux>
+  tmux & tmuxinator <tips/tmux>
 
 Indices and tables
 ==================
