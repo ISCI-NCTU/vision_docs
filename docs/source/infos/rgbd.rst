@@ -1,16 +1,13 @@
-RGBD sensors
+RGBD Sensors
 =======================================
-
-Blabla on RGBD sensors...
-
 
 .. toctree::
   :name: rgbds
-  :caption: RGBD Sensors
   :glob:
   :maxdepth: 2
 
-  Kinect1 <rgbd/kinect1>
-  Kinect2 <rgbd/kinect2>
-  RealSense <rgbd/realsense>
-  Xtion <rgbd/xtion>
+  Microsoft Kinect <rgbd/kinect1>
+  Microsoft Kinect <rgbd/kinect2>
+  Intel F200 <rgbd/f200>
+  Intel SR300 <rgbd/sr300>
+  Asus Xtion <rgbd/xtion>

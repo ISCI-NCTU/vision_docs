@@ -1,0 +1,22 @@
+Intel SR300
+==========
+
+.. image:: /_static/sr300.jpg
+    :width: 400px
+    :align: center
+
+Description
+-----------
+Intel is now producing a couple different RGBD sensors (F200 and SR300)
+to be used in different applications and scenarios.
+
+.. note:: The ZR300 is going to be available in December 2016
+
+The SR200 can be used between 0.2 and 2 meters
+
+On ROS
+------
+
+.. warning:: I haven't tried this sensor on ROS since the official ROS drivers have been released
+
+To run the Kinect_V2 on ROS, just follow the tutorial for the `realsense_camera <http://wiki.ros.org/RealSense>`_ package

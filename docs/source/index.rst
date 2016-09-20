@@ -18,7 +18,7 @@ Vision code documentation
   :glob:
   :maxdepth: 2
 
-  RGBD sensors <infos/rgbd>
+  RGBD sensors on ROS <infos/rgbd>
 
 .. toctree::
   :name: demos
@@ -45,9 +45,7 @@ TODO
   :glob:
   :maxdepth: 2
 
-TODO
-
-..  TMUX <tips/tmux>
+  tmux && tmuxinator <tips/tmux>
 
 Indices and tables
 ==================
