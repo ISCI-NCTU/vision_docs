@@ -48,7 +48,9 @@ http://tangledhelix.com/blog/2012/07/16/tmux-and-mouse-mode/
 
 tmuxinator
 ----------
-Follow the instructions on the github repository:
+Install ruby and then follow the instructions on the github repository:
+
+``sudo apt install ruby``
 
 https://github.com/tmuxinator/tmuxinator
 
